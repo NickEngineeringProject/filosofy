@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import VShowSlide from 'v-show-slide'
+
+Vue.use(VShowSlide)
 
 Vue.config.productionTip = false
 
