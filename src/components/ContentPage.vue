@@ -2,6 +2,13 @@
     <div class="content">
         <h3 v-if="menuItem" class="content__title">{{menuItem.title}}</h3>
 
+        <div class="content__wrapper" v-if="payload.materials">
+            <div class="content__subtitle">Материалы</div>
+            <div class="content__files">
+                <FileItem type="pdf" :key="i" v-for="(item, i) of payload.materials" :item="item"/>
+            </div>
+        </div>
+
         <div class="content__wrapper" v-if="payload.videos">
             <div class="content__subtitle">Видео</div>
             <div class="content__videos">

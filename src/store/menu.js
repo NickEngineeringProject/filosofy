@@ -5,10 +5,22 @@ export default {
             {
                 id: 1,
                 title: 'Лекции',
+                payload: {
+                    materials: [
+                        {id: 1, title: 'Лекция к теме 1.1.pdf', link: '/files/lecture/Лекция_к_теме_1.1.pdf'},
+                        {id: 2, title: 'Лекции к темам 1.2-1.3.pdf', link: '/files/lecture/Лекции_к_темам_1.2-1.3.pdf'},
+                        {id: 3, title: 'Лекции к темам 1.4-2.1.pdf', link: '/files/lecture/Лекции_к_темам_1.4-2.1.pdf'},
+                        {id: 4, title: 'Лекции к темам 2.2-2.4.pdf', link: '/files/lecture/Лекции_к_темам_2.2-2.4.pdf'},
+                    ]
+                }
+            },
+            {
+                id: 2,
+                title: 'Учебные темы',
                 submenu: [
                     {
                         id: 1,
-                        title: 'Основные понятия и предмет философии',
+                        title: 'Тема 1.1. Основные понятия и предмет философии',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Философия как мировоззрение', link: 'https://www.youtube.com/embed/aCP1S8cULM4'},
@@ -24,7 +36,7 @@ export default {
                     },
                     {
                         id: 2,
-                        title: 'Философия древнего мира и средневековая философия',
+                        title: 'Тема 1.2. Философия древнего мира и средневековая философия',
                         payload: {
                             presentations: [
                                 {id: 1, title: 'Философия Древней Индии и Древнего Китая.ppt', link: '/files/presentation/Философия_Древней_Индии_и_Древнего_Китая.ppt'},
@@ -34,7 +46,7 @@ export default {
                     },
                     {
                         id: 3,
-                        title: 'Философия Возрождения и Нового времени',
+                        title: 'Тема 1.3. Философия Возрождения и Нового времени',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Философия Возрождения', link: 'https://www.youtube.com/embed/KwUGI1Y7Gmk'},
@@ -47,7 +59,7 @@ export default {
                     },
                     {
                         id: 4,
-                        title: 'Современная философия',
+                        title: 'Тема 1.4. Современная философия',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Особенности философии 20 века', link: 'https://www.youtube.com/embed/g0IO53U6LiU'},
@@ -60,7 +72,7 @@ export default {
                     },
                     {
                         id: 5,
-                        title: 'Методы философии и её внутреннее строение',
+                        title: 'Тема 2.1. Методы философии и её внутреннее строение',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Специфика философского знания', link: 'https://www.youtube.com/embed/QkYu6B3KfWc'},
@@ -73,7 +85,7 @@ export default {
                     },
                     {
                         id: 6,
-                        title: 'Учение о бытии и теория познания',
+                        title: 'Тема 2.2. Учение о бытии и теория познания',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Онтология в структуре философского знания', link: 'https://www.youtube.com/embed/sNbc5X2p0VY'},
@@ -86,7 +98,7 @@ export default {
                     },
                     {
                         id: 7,
-                        title: 'Этика и социальная философия',
+                        title: 'Тема 2.3. Этика и социальная философия',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Общество как предмет философии', link: 'https://www.youtube.com/embed/UDDVifEJCmA'},
@@ -97,7 +109,7 @@ export default {
                     },
                     {
                         id: 8,
-                        title: 'Место философии в духовной культуре и её значение',
+                        title: 'Тема 2.4. Место философии в духовной культуре и её значение',
                         payload: {
                             videos: [
                                 {id: 1, title: 'Аксиология в системе философского знания', link: 'https://www.youtube.com/embed/ZhwYCcctmIk'},
@@ -113,7 +125,7 @@ export default {
                 ],
             },
             {
-                id: 2,
+                id: 3,
                 title: 'Практические работы',
                 payload: {
                     works: [
@@ -138,7 +150,7 @@ export default {
                 }
             },
             {
-                id: 3,
+                id: 4,
                 title: 'Контрольные работы',
                 submenu: [
                     {
@@ -204,14 +216,23 @@ export default {
                 ]
             },
             {
-                id: 4,
+                id: 5,
                 title: 'Методические указания',
                 payload: {
                     works: [
-                        {id: 1, title: 'ОГСЭ 01 Основы философии.doc', link: '/files/instruction/ОГСЭ_01_Основы_философии.doc'},
-                        {id: 2, title: 'Рабочая программа.doc', link: '/files/instruction/Рабочая_программа.doc'},
-                        {id: 3, title: 'Основы философии Горелов А.А.doc', link: '/files/instruction/Основы_философии_Горелов_А.А.doc'},
-                        {id: 4, title: 'Вопросы.docx', link: '/files/instruction/Вопросы.docx'},
+                        {id: 1, title: 'Методические указания по организации и проведению самостоятельной работы студентов по учебной дисциплине.doc', link: '/files/instruction/Методические_указания_по_организации_и_проведению_самостоятельной_работы_студентов_по учебной_дисциплине.doc'},
+                        {id: 2, title: 'Рабочая программа учебной дисциалины.doc', link: '/files/instruction/Рабочая_программа_учебной_дисциплины.doc'},
+                        {id: 3, title: 'Основы философии учебник Горелов А.А.doc', link: '/files/instruction/Основы_философии_Горелов_А.А.doc'},
+                    ]
+                }
+            },
+            {
+                id: 6,
+                title: 'Контрольно-измерительные материалы',
+                payload: {
+                    works: [
+                        {id: 1, title: 'Комплект контрольно-измерительных материалов.doc', link: '/files/material/Комплект_контрольно-измерительных_материалов.doc'},
+                        {id: 2, title: 'Контрольно измерительные материалы (Вопросы).docx', link: '/files/material/Вопросы.docx'},
                     ]
                 }
             },

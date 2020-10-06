@@ -16,7 +16,7 @@
         data: () => ({
             pageMetaData: {
                 id: 1,
-                isSubmenu: true,
+                isSubmenu: false,
             },
             currentPage: null
         }),

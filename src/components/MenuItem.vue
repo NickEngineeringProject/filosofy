@@ -17,7 +17,7 @@
             item: Object
         },
         data: () => ({
-            render: true,
+            render: false,
         }),
         methods: {
             loadPage(e) {
